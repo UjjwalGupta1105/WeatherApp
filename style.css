@@ -1,0 +1,134 @@
+*{
+   margin: 0px; 
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: black;
+    background-image: url('./weather\ bg-img.jpg');
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+#h{
+    display: flex;
+    /* font-size: 40px;
+    margin: 0px;
+    background-color: white; */
+    background-color: white;
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 3px solid orange;
+}
+#container{
+    /* display: flex; */
+    height: min-content;
+    width:350px;
+    background-color: white;
+    margin: auto;
+    padding: 14px;
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+
+#start-heading{
+    margin: 0px auto; 
+    color: black;
+    font-size: 66px;
+    background-color: white;
+}
+
+#header{
+    display: flex;
+    width: 65%;   
+    margin: auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relat;
+}
+
+#input{
+    width:100% ; 
+    font-size: 1.1rem;
+   
+}
+#header button{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 35px;
+    width: 40px;
+    margin: 4px;
+    padding: 2px;
+}
+.search-button:hover{
+    background-color: aqua;
+}
+.weather-body{
+    display: none;
+    flex-direction: column ;
+    height: 480px;
+}
+.weth-img img{
+    width: 250px;
+    margin-left: 50px;
+    
+}
+.weth-data{
+    font-size: 60px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 0px;
+;
+}
+#weth{
+    font-size:35px;
+    text-align: center;
+    color:orange;
+    margin-bottom: 25px;
+}
+.temp{
+
+font-weight: 550;
+}
+.humid{
+    
+    margin-bottom: 19px;
+    margin-left: 15px;
+}
+.wind{
+    
+    position: relative;
+    left: 170px;
+    bottom: 73px;
+    /* bottom: -210px;
+    right: 200px; */
+    margin-right: 20px;
+}
+
+h1{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.icons-p{
+    margin-left: 32px;
+}
+.not-found{
+    display: none;
+    flex-direction: column;
+}
+.not-found h2{
+    font-size: 29px;
+    margin:2px;
+    /* padding: 10px; */
+    margin-top: 20px;
+}
+.not-found img{
+    margin: -9px;
+    margin-top: 10px;
+}

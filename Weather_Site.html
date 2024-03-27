@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1 id="start-heading">Check Weather</h1>  -->
+
+    <div id="h">
+        <h1 id="start-heading">Check Weather</h1>
+    </div>
+    
+    <div id="container"> 
+
+        <div id="header">
+            <!-- <div class="search-box"> -->
+                <input type="text" id="input" placeholder="Enter The Location">
+                <!-- <i class="fa-solid fa-magnifying-glass fa-lg"></i> -->
+                <button class="fa-solid fa-magnifying-glass fa-lg search-button"></button>
+        </div>
+            
+        <!-- </div> -->
+        <div class="not-found">
+                <h2>Sorry , Location Not Found</h2>
+                <img src="./photos/404.png" alt="Not Found">
+        </div>
+
+        <div class="weather-body">
+
+            <div class="weth-img">
+                <img src="./photos/clear.png" id="weth-img" alt="Weather">
+            </div>
+
+            <div class="weth-data">
+                <p class="temp">0°C</p>
+            </div>
+
+            <p id="weth">Sunny</p>
+
+            <div class="humid">
+                <i class="fa-solid fa-droplet fa-2xl"></i>
+                <h1 id="humid">48%</h1>
+                <p class="icons-p">Humid</p>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind fa-2xl"></i>
+                <h1 id="speed">15km/h</h1>
+                <p class="icons-p">Wind Speed</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/55c035fe02.js" crossorigin="anonymous"></script>
+
+    <script src="brain.js"></script>
+</body>
+</html>
